@@ -36,15 +36,6 @@ Train the enhanced multi-task model:
 python scripts/enhanced_model_training.py
 ```
 
-## TZL Experiments
-
-The TZL experiment scripts report Transformer/M6P correlations only (no GBLUP):
-```
-python scripts/run_tzl_transformer_vs_gblup.py
-python scripts/run_tzl_m6p_pretrain_finetune_vs_gblup.py
-```
 
 ## Notes
-
-- Large datasets and model checkpoints are not tracked by git.
 - Update paths in scripts if you relocate the project directory.
